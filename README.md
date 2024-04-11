@@ -51,14 +51,14 @@ number of epochs) to find an optimal configuration.
       * **Optimizer:**: Adam with Learning rate=2e-5
       * **Loss: SparseCategoricalCrossentropy**: This is typically used when your classes are mutually exclusive and the targets are integers. In the case of binary classification, it expects the labels to be provided as integers (0 or 1), and your final layer should have 2 output neurons with a ‘softmax’ activation function.
       * **Metric:** Accuracy to measure the model accuracy
-      
   * Epochs was kept small(Epochs 2) because of the high training time and lack of resources allocation
   * Train the models on the training data.
 5. Model Evaluation:
   * Evaluate the trained models on the testing data using metrics like F1_score,accuracy, Precision, Recall using Sklearn Classification report
   * Confusion matrix evaluation:
   1. BERT model
-    ![alt text](image.png)
+    ![bert_cm](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/f9961862-0ee0-4efd-9d64-5e1313cbd9e6)
+
   2. DistilBERT model:
     ![alt text](image-1.png)
 6. model's predictions
