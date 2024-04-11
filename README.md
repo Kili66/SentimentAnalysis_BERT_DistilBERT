@@ -1,7 +1,8 @@
 # Sentiment Analysis with BERT and DistilBERT
 This project investigates sentiment analysis of movie reviews using two popular pre-trained transformer models: BERT (Bidirectional Encoder Representation from Transformers) and DistilBERT (a smaller, faster adaptation of BERT).
 
-  ![alt text](image-2.png)
+ ![image-2](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/05c5366b-bbec-4d7d-a9c8-3053a098ecfb)
+
 
 ## What is Sentiment Analysis
 Sentiment analysis is a Natural Language Processing (NLP) task that aims to understand the sentiment expressed in a piece of text. It categorizes the sentiment as positive, negative, or neutral. Sentiment analysis helps businesses and organizations gain insights into customer feedback, product reviews, and social media trends.
