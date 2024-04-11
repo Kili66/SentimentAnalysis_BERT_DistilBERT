@@ -77,8 +77,14 @@ number of epochs) to find an optimal configuration.
   * Negative Class: 93% of the actual negative reviews were correctly classified (slightly higher than BERT's 89%).
   * Positive Class: 89% of the actual positive reviews were correctly classified (slightly lower than BERT's 93%).
 * **F1-Score:** The F1-score for both classes is around 0.91, indicating a good balance between precision and recall.
-
+  
+   ** BERT RESULT
    ![bert_cr](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/45f9d413-40cd-4eab-8bfb-02470ae41366)
+
+   ** DistilBERT Result
+  
+   ![distilbert](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/48993b15-7047-46d7-936c-a8c0a20a1d3a)
+
   
 These results suggest that DistilBERT is a viable alternative to BERT for sentiment analysis, offering comparable performance while potentially being faster and more lightweight due to its smaller size.
 ### 7. Saving the Model:
