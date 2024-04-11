@@ -92,8 +92,6 @@ These results suggest that DistilBERT is a viable alternative to BERT for sentim
 ### 8. Pushing the Model to Hugging Face Hub: https://huggingface.co/MariamKili/my_distilbert_model
 
 ### 9. Implement the Model to a Web Application using Gradio
-  * Access the public Web App: https://8bf2f8ae82e725538c.gradio.live/
-  
 ## Running the Project
 1. Clone the repository: ``` git clone https://github.com/Kili66/Sentiment_Analysis_BERT_DistilBert.git  ```
 2. Create a Virtual Environment conda: ```conda create -p virtualenv python==3.9 -y```
