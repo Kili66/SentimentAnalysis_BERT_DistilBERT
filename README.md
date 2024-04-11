@@ -62,11 +62,14 @@ number of epochs) to find an optimal configuration.
 ### 5. Model Evaluation:
   * Evaluate the trained models on the testing data using metrics like F1_score,accuracy, Precision, Recall using Sklearn Classification report
   * Confusion matrices were created to visualize the model's performance.
+    
   1. BERT model
-    ![bert_cm](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/f9961862-0ee0-4efd-9d64-5e1313cbd9e6)
+   
+   ![bert_cm](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/f9961862-0ee0-4efd-9d64-5e1313cbd9e6)
 
-  2. DistilBERT model:
-    ![image-1](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/af4ddb62-c0fb-4434-aab1-938dfc3f4af7)
+  3. DistilBERT model:
+     
+   ![image-1](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/af4ddb62-c0fb-4434-aab1-938dfc3f4af7)
 
 ### 6. Results
 * **Accuracy:** 91% of the reviews in the test set were classified correctly. This is similar to the accuracy achieved by the BERT model (91%).
@@ -79,6 +82,7 @@ number of epochs) to find an optimal configuration.
 * **F1-Score:** The F1-score for both classes is around 0.91, indicating a good balance between precision and recall.
   
    ** BERT RESULT
+  
    ![bert_cr](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/45f9d413-40cd-4eab-8bfb-02470ae41366)
 
    ** DistilBERT Result
@@ -117,7 +121,9 @@ By carefully considering these challenges and strategically selecting hyperparam
 This project successfully explored sentiment analysis of IMDB movie reviews using pre-trained transformer models, BERT and DistilBERT. We implemented a comprehensive methodology involving data pre-processing, text tokenization, model selection, training, and evaluation. Both models achieved a high overall accuracy of 91% on the test set, demonstrating their effectiveness in classifying reviews as positive or negative.<br>
 We also addressed significant challenges, including memory limitations during training with large batch sizes. By carefully selecting a batch size of 6 for BERT and 12 for DistilBERT, we were able to train the models effectively on the available GPU resources. Additionally, we ensured compatibility between different libraries to avoid dependency errors.<br>
 ### Some Future Explorations
-  * Hyperparameter Tuning: Systematically adjusting hyperparameters like learning rate and number of epochs could potentially enhance model performance.
-* Regularization Techniques: Techniques like L1/L2 regularization or dropout can help prevent overfitting.
-* Data Augmentation: Artificially increasing the size and diversity of the training data through techniques like back-translation or synonym replacement can potentially lead to improved model generalization.
-* Exploring Other Models: Investigating the performance of other pre-trained transformer models like RoBERTa or XLNet for sentiment analysis on this dataset could provide valuable insights.
+ * Hyperparameter Tuning: Systematically adjusting hyperparameters like learning rate and number of epochs could potentially enhance model performance.
+ * Regularization Techniques: Techniques like L1/L2 regularization or dropout can help prevent overfitting.
+ * Data Augmentation: Artificially increasing the size and diversity of the training data through techniques like back-translation or synonym replacement can potentially lead to improved model generalization.
+ * Exploring Other Models: Investigating the performance of other pre-trained transformer models like RoBERTa or XLNet for sentiment analysis on this dataset could provide valuable insights.
+ * Containerize the Application using Docker
+ * Deploy The Sentiment Analysis App to the production using a cloud service
