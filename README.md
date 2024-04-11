@@ -24,21 +24,21 @@ Sentiment analysis is a Natural Language Processing (NLP) task that aims to unde
 ## Methodology
 The project implements sentiment analysis using two pre-trained transformer models:
 
-1. BERT (Bidirectional Encoder Representation from Transformers):
+ **1. BERT (Bidirectional Encoder Representation from Transformers):**
   * A powerful pre-trained model for Natural Language Processing tasks.
   * This project uses the bert-base-uncased model.
-2. DistilBERT (Distilled Bidirectional Encoder Representations from Transformers):
+ **2. DistilBERT (Distilled Bidirectional Encoder Representations from Transformers):**
   * A smaller and faster version of BERT with comparable performance.
   * This project uses the distilbert-base-uncased model.
 The sentiment analysis process involves the following steps:
-1. Data Loading and Preprocessing:
+#### 1. Data Loading and Preprocessing:
   * Load the movie review dataset.
   * Clean and pre-process the text data, including:
       * Converting sentiment labels to numeric values.
       * Removing HTML tags and URLs.
       * Lowercasing text.
       * Removing stop words.
-2. Data Splitting:
+#### 2. Data Splitting:
   * Split the data into training and testing sets.
 3. Tokenization and Encoding:
   * Tokenize the text data using the chosen model's tokenizer.
@@ -60,7 +60,8 @@ number of epochs) to find an optimal configuration.
     ![bert_cm](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/f9961862-0ee0-4efd-9d64-5e1313cbd9e6)
 
   2. DistilBERT model:
-    ![alt text](image-1.png)
+    ![image-1](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/af4ddb62-c0fb-4434-aab1-938dfc3f4af7)
+
 6. model's predictions
 7. Saving the Model:
   * Save the trained BERT model for future use.
