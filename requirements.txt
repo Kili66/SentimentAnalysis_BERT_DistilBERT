@@ -1,0 +1,14 @@
+transformers
+tensorflow
+tensorflow-gpu==2.9.1
+scikit-learn
+pandas
+nltk
+matplotlib
+plotly
+seaborn
+tqdm
+nbformat==4.2.0
+plotly
+poetry
+gradio
