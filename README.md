@@ -1,4 +1,6 @@
 # Sentiment Analysis with BERT and DistilBERT
+**Note**: You can run the Entire Application availaible Publically on my HuggingFace Space: https://huggingface.co/spaces/MariamKili/SentimentAnalysisSystem
+
 This project investigates sentiment analysis of movie reviews using two popular pre-trained transformer models: BERT (Bidirectional Encoder Representation from Transformers) and DistilBERT (a smaller, faster adaptation of BERT).<br>
 This project explores sentiment analysis to classify movie reviews from the IMDB dataset into positive or negative categories using Hugging Face Pretrained models.
 
@@ -93,7 +95,10 @@ number of epochs) to find an optimal configuration.
 These results suggest that DistilBERT is a viable alternative to BERT for sentiment analysis, offering comparable performance while potentially being faster and more lightweight due to its smaller size.
 ### 7. Saving the Model:
   * Save the trained BERT model for future use.
-### 8. Pushing the Model to Hugging Face Hub: https://huggingface.co/MariamKili/my_distilbert_model
+### 8. Pushing the Model to Hugging Face 
+
+ * Model Hub: https://huggingface.co/MariamKili/my_distilbert_model
+ * Run the Application on HugginFace Space: https://huggingface.co/spaces/MariamKili/SentimentAnalysisSystem
 
 ### 9. Implement the Model to a Web Application using Gradio
 ## Running the Project
