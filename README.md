@@ -1,6 +1,6 @@
 # Sentiment Analysis with BERT and DistilBERT
-This project investigates sentiment analysis of movie reviews using two popular pre-trained transformer models: BERT (Bidirectional Encoder Representation from Transformers) and DistilBERT (a smaller, faster adaptation of BERT).
-* This project explores sentiment analysis to classify movie reviews from the IMDB dataset into positive or negative categories using Hugging Face Pretrained models.
+This project investigates sentiment analysis of movie reviews using two popular pre-trained transformer models: BERT (Bidirectional Encoder Representation from Transformers) and DistilBERT (a smaller, faster adaptation of BERT).<br>
+This project explores sentiment analysis to classify movie reviews from the IMDB dataset into positive or negative categories using Hugging Face Pretrained models.
 
  ![image-2](https://github.com/Kili66/SentimentAnalysis_HuggingFace_DistlBERT/assets/66678981/05c5366b-bbec-4d7d-a9c8-3053a098ecfb)
 

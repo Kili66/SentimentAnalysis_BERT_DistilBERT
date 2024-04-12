@@ -1,5 +1,6 @@
-transformers
-tensorflow
+Transformers==4.38.2
+TensorFlow==2.15.1
+Tokenizers==0.15.2
 tensorflow-gpu==2.9.1
 scikit-learn
 pandas
