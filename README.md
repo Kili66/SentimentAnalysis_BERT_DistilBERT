@@ -97,7 +97,7 @@ number of epochs) to find an optimal configuration.
   
 These results suggest that DistilBERT is a viable alternative to BERT for sentiment analysis, offering comparable performance while potentially being faster and more lightweight due to its smaller size.
 ### 7. Saving the Model:
-  * Save the trained BERT model for future use.
+  * Save the trained DistilBERT model for future use.
 ### 8. Pushing the Model and Deploy the App to Hugging Face 
 
  * Model Hub: https://huggingface.co/MariamKili/my_distilbert_model
