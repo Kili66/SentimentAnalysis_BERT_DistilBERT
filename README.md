@@ -98,12 +98,12 @@ number of epochs) to find an optimal configuration.
 These results suggest that DistilBERT is a viable alternative to BERT for sentiment analysis, offering comparable performance while potentially being faster and more lightweight due to its smaller size.
 ### 7. Saving the Model:
   * Save the trained DistilBERT model for future use.
-### 8. Pushing the Model and Deploy the App to Hugging Face 
-
+### 8. Pushing the Model to Hugging Face 
  * Model Hub: https://huggingface.co/MariamKili/my_distilbert_model
- * Deployed App: Run the Application on any device using this link: https://huggingface.co/spaces/MariamKili/SentimentAnalysisSystem
-
 ### 9. Implement the Model to a Web Application using Gradio
+### 10. Deployement:
+ * The App was deployed using Hugging Face Space
+ * Run the deployed Application on any device using this link: https://huggingface.co/spaces/MariamKili/SentimentAnalysisSystem
 ## Running the Project
 1. Clone the repository: ``` git clone https://github.com/Kili66/Sentiment_Analysis_BERT_DistilBert.git  ```
 2. Create a Virtual Environment conda: ```conda create -p virtualenv python==3.9 -y```
