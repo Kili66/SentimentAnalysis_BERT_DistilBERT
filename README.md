@@ -114,9 +114,10 @@ These results suggest that DistilBERT is a viable alternative to BERT for sentim
 6. Run the app.py script for sentiment analysis user App
 
 ## Challenges Encountered
-  ### Memory Constraints and Batch Size Selection
- One challenge here is that the raw text data was not directly usable for training the models. Ensuring the data is relevant and of high quality for training. We transformed the data and preprocess it by firstly remove punctuation, stop_words and  by converting  it into a numerical representation (tensor data) and applied techniques like tokenization, that the model can understand. Text data was noisy and not cleaned, so cleaning and pre-processing was necessary.<br>
- 
+
+ ### Data quality challenge
+  One challenge here is that the raw text data was not directly usable for training the models. Ensuring the data is relevant and of high quality for training. We transformed the data and preprocess it by firstly remove punctuation, stop_words and  by converting  it into a numerical representation (tensor data) and applied techniques like tokenization, that the model can understand. Text data was noisy and not cleaned, so cleaning and pre-processing was necessary.<br>
+  ### Memory Constraints and Batch Size Selection 
   Another significant challenges encountered during this project  dealing with memory limitations(OOM), particularly when training the BERT model. BERT is a computationally expensive model, and selecting a large batch size can quickly exhaust available GPU memory, leading to Out-of-Memory (OOM) errors.<br>
   To address this challenge, a careful selection of the batch size was essential. Through experimentation, it was found that a batch size of 6 for BERT training effectively utilized the available GPU memory while providing reasonable training speed.
   ### Dependency Errors
