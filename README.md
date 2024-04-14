@@ -101,6 +101,8 @@ These results suggest that DistilBERT is a viable alternative to BERT for sentim
 ### 8. Pushing the Model to Hugging Face 
  * Model Hub: https://huggingface.co/MariamKili/my_distilbert_model
 ### 9. Implement the Model to a Web Application using Gradio
+ * We also created a web application using Gradio that allows users to input text and receive real-time sentiment predictions from the DistilBERT model.
+ * This demonstrates the practical applications of sentiment analysis models and their potential to be deployed in user-friendly interfaces.
 ### 10. Deployement:
  * The App was deployed using Hugging Face Space
  * Run the deployed Application on any device using this link: https://huggingface.co/spaces/MariamKili/SentimentAnalysisSystem
@@ -127,6 +129,10 @@ These results suggest that DistilBERT is a viable alternative to BERT for sentim
   While BERT achieved excellent performance, its computational demands posed challenges. To explore a more memory-efficient alternative, the DistilBERT model was investigated. DistilBERT is a smaller and faster variant of BERT, designed for deployment on devices with limited resources.<br>
   The DistilBERT model allowed for a larger batch size of 12 during training compared to BERT's 6. This increase in batch size can potentially accelerate the training process while maintaining accuracy. However, it's important to evaluate the impact of this larger batch size on model performance through validation metrics.<br>
 By carefully considering these challenges and strategically selecting hyperparameters like batch size, we were able to train both BERT and DistilBERT models effectively within the constraints of the available computational resources.
+## Application
+* Sentiment analysis models can be used in various applications, like: Automatically summarizing customer reviews or social media posts.
+*  Analyzing the sentiment of news articles or research papers.
+*  Helping companies understand customer feedback and improve their products or services."
 
 ## Conclusion
 This project successfully explored sentiment analysis of IMDB movie reviews using pre-trained transformer models, BERT and DistilBERT. We implemented a comprehensive methodology involving data pre-processing, text tokenization, model selection, training, and evaluation. Both models achieved a high overall accuracy of 91% on the test set, demonstrating their effectiveness in classifying reviews as positive or negative.<br>
